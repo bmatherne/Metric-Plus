@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43002EF917E1EC6600624831 /* 93-thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002EF817E1EC6600624831 /* 93-thermometer.png */; };
+		43002EFB17E1EC6D00624831 /* 93-thermometer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002EFA17E1EC6D00624831 /* 93-thermometer@2x.png */; };
+		43002EFE17E1ED7200624831 /* 89-dumbells.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002EFC17E1ED7200624831 /* 89-dumbells.png */; };
+		43002EFF17E1ED7200624831 /* 89-dumbells@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002EFD17E1ED7200624831 /* 89-dumbells@2x.png */; };
+		43002F0217E1ED7C00624831 /* 91-beaker-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002F0017E1ED7C00624831 /* 91-beaker-2.png */; };
+		43002F0317E1ED7C00624831 /* 91-beaker-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002F0117E1ED7C00624831 /* 91-beaker-2@2x.png */; };
+		43002F0617E1ED8700624831 /* 186-ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002F0417E1ED8700624831 /* 186-ruler.png */; };
+		43002F0717E1ED8700624831 /* 186-ruler@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002F0517E1ED8700624831 /* 186-ruler@2x.png */; };
+		43002F0A17E1ED8F00624831 /* 257-box3.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002F0817E1ED8F00624831 /* 257-box3.png */; };
+		43002F0B17E1ED8F00624831 /* 257-box3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002F0917E1ED8F00624831 /* 257-box3@2x.png */; };
+		43002F0D17E1F20800624831 /* metric_icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 43002F0C17E1F20800624831 /* metric_icon_120.png */; };
+		4317ABE917B4112700117B2D /* darkButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4317ABE817B4112700117B2D /* darkButton.png */; };
+		4317ABEB17B4112F00117B2D /* darkButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4317ABEA17B4112F00117B2D /* darkButton@2x.png */; };
+		4319467917A34CA00080DF11 /* metric-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4319467817A34CA00080DF11 /* metric-icon.png */; };
+		4319467B17A34CA40080DF11 /* metric-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4319467A17A34CA40080DF11 /* metric-icon@2x.png */; };
+		4374B664179DFEA7000955D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4374B663179DFEA7000955D5 /* QuartzCore.framework */; };
+		43F9CDCC179A331C00DDD969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F9CDCB179A331C00DDD969 /* UIKit.framework */; };
+		43F9CDCE179A331C00DDD969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F9CDCD179A331C00DDD969 /* Foundation.framework */; };
+		43F9CDD0179A331C00DDD969 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F9CDCF179A331C00DDD969 /* CoreGraphics.framework */; };
+		43F9CDD6179A331C00DDD969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43F9CDD4179A331C00DDD969 /* InfoPlist.strings */; };
+		43F9CDD8179A331C00DDD969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9CDD7179A331C00DDD969 /* main.m */; };
+		43F9CDDC179A331C00DDD969 /* BMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9CDDB179A331C00DDD969 /* BMAppDelegate.m */; };
+		43F9CDDE179A331C00DDD969 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F9CDDD179A331C00DDD969 /* Default.png */; };
+		43F9CDE0179A331C00DDD969 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F9CDDF179A331C00DDD969 /* Default@2x.png */; };
+		43F9CDE2179A331C00DDD969 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F9CDE1179A331C00DDD969 /* Default-568h@2x.png */; };
+		43F9CDF1179A353F00DDD969 /* BMTemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9CDEF179A353F00DDD969 /* BMTemperatureController.m */; };
+		43F9CDF2179A353F00DDD969 /* BMTemperatureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F9CDF0179A353F00DDD969 /* BMTemperatureController.xib */; };
+		43F9CDF6179A356A00DDD969 /* BMWeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9CDF4179A356A00DDD969 /* BMWeightController.m */; };
+		43F9CDF7179A356A00DDD969 /* BMWeightController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F9CDF5179A356A00DDD969 /* BMWeightController.xib */; };
+		43F9CDFB179A358400DDD969 /* BMLengthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9CDF9179A358400DDD969 /* BMLengthController.m */; };
+		43F9CDFC179A358400DDD969 /* BMLengthController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F9CDFA179A358400DDD969 /* BMLengthController.xib */; };
+		43F9CE00179A359500DDD969 /* BMAreaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9CDFE179A359500DDD969 /* BMAreaController.m */; };
+		43F9CE01179A359500DDD969 /* BMAreaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F9CDFF179A359500DDD969 /* BMAreaController.xib */; };
+		43F9CE05179A35A700DDD969 /* BMVolumeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F9CE03179A35A700DDD969 /* BMVolumeController.m */; };
+		43F9CE06179A35A700DDD969 /* BMVolumeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F9CE04179A35A700DDD969 /* BMVolumeController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43002EF817E1EC6600624831 /* 93-thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "93-thermometer.png"; sourceTree = "<group>"; };
+		43002EFA17E1EC6D00624831 /* 93-thermometer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "93-thermometer@2x.png"; sourceTree = "<group>"; };
+		43002EFC17E1ED7200624831 /* 89-dumbells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "89-dumbells.png"; sourceTree = "<group>"; };
+		43002EFD17E1ED7200624831 /* 89-dumbells@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "89-dumbells@2x.png"; sourceTree = "<group>"; };
+		43002F0017E1ED7C00624831 /* 91-beaker-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "91-beaker-2.png"; sourceTree = "<group>"; };
+		43002F0117E1ED7C00624831 /* 91-beaker-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "91-beaker-2@2x.png"; sourceTree = "<group>"; };
+		43002F0417E1ED8700624831 /* 186-ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "186-ruler.png"; sourceTree = "<group>"; };
+		43002F0517E1ED8700624831 /* 186-ruler@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "186-ruler@2x.png"; sourceTree = "<group>"; };
+		43002F0817E1ED8F00624831 /* 257-box3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "257-box3.png"; sourceTree = "<group>"; };
+		43002F0917E1ED8F00624831 /* 257-box3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "257-box3@2x.png"; sourceTree = "<group>"; };
+		43002F0C17E1F20800624831 /* metric_icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metric_icon_120.png; sourceTree = SOURCE_ROOT; };
+		4317ABE817B4112700117B2D /* darkButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkButton.png; sourceTree = "<group>"; };
+		4317ABEA17B4112F00117B2D /* darkButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "darkButton@2x.png"; sourceTree = "<group>"; };
+		4319467817A34CA00080DF11 /* metric-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metric-icon.png"; path = "../metric-icon.png"; sourceTree = "<group>"; };
+		4319467A17A34CA40080DF11 /* metric-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metric-icon@2x.png"; path = "../metric-icon@2x.png"; sourceTree = "<group>"; };
+		4374B663179DFEA7000955D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		43F9CDC8179A331C00DDD969 /* Metric Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metric Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F9CDCB179A331C00DDD969 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43F9CDCD179A331C00DDD969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43F9CDCF179A331C00DDD969 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43F9CDD3179A331C00DDD969 /* Metric Plus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Metric Plus-Info.plist"; sourceTree = "<group>"; };
+		43F9CDD5179A331C00DDD969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43F9CDD7179A331C00DDD969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43F9CDD9179A331C00DDD969 /* Metric Plus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Metric Plus-Prefix.pch"; sourceTree = "<group>"; };
+		43F9CDDA179A331C00DDD969 /* BMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAppDelegate.h; sourceTree = "<group>"; };
+		43F9CDDB179A331C00DDD969 /* BMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAppDelegate.m; sourceTree = "<group>"; };
+		43F9CDDD179A331C00DDD969 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		43F9CDDF179A331C00DDD969 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		43F9CDE1179A331C00DDD969 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		43F9CDEE179A353F00DDD969 /* BMTemperatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTemperatureController.h; sourceTree = "<group>"; };
+		43F9CDEF179A353F00DDD969 /* BMTemperatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTemperatureController.m; sourceTree = "<group>"; };
+		43F9CDF0179A353F00DDD969 /* BMTemperatureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMTemperatureController.xib; sourceTree = "<group>"; };
+		43F9CDF3179A356A00DDD969 /* BMWeightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWeightController.h; sourceTree = "<group>"; };
+		43F9CDF4179A356A00DDD969 /* BMWeightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWeightController.m; sourceTree = "<group>"; };
+		43F9CDF5179A356A00DDD969 /* BMWeightController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMWeightController.xib; sourceTree = "<group>"; };
+		43F9CDF8179A358400DDD969 /* BMLengthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLengthController.h; sourceTree = "<group>"; };
+		43F9CDF9179A358400DDD969 /* BMLengthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLengthController.m; sourceTree = "<group>"; };
+		43F9CDFA179A358400DDD969 /* BMLengthController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMLengthController.xib; sourceTree = "<group>"; };
+		43F9CDFD179A359500DDD969 /* BMAreaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAreaController.h; sourceTree = "<group>"; };
+		43F9CDFE179A359500DDD969 /* BMAreaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAreaController.m; sourceTree = "<group>"; };
+		43F9CDFF179A359500DDD969 /* BMAreaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMAreaController.xib; sourceTree = "<group>"; };
+		43F9CE02179A35A700DDD969 /* BMVolumeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVolumeController.h; sourceTree = "<group>"; };
+		43F9CE03179A35A700DDD969 /* BMVolumeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMVolumeController.m; sourceTree = "<group>"; };
+		43F9CE04179A35A700DDD969 /* BMVolumeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMVolumeController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F9CDC5179A331C00DDD969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4374B664179DFEA7000955D5 /* QuartzCore.framework in Frameworks */,
+				43F9CDCC179A331C00DDD969 /* UIKit.framework in Frameworks */,
+				43F9CDCE179A331C00DDD969 /* Foundation.framework in Frameworks */,
+				43F9CDD0179A331C00DDD969 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F9CDBF179A331C00DDD969 = {
+			isa = PBXGroup;
+			children = (
+				43F9CDD1179A331C00DDD969 /* Metric + */,
+				43F9CDCA179A331C00DDD969 /* Frameworks */,
+				43F9CDC9179A331C00DDD969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F9CDC9179A331C00DDD969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F9CDC8179A331C00DDD969 /* Metric Plus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F9CDCA179A331C00DDD969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4374B663179DFEA7000955D5 /* QuartzCore.framework */,
+				43F9CDCB179A331C00DDD969 /* UIKit.framework */,
+				43F9CDCD179A331C00DDD969 /* Foundation.framework */,
+				43F9CDCF179A331C00DDD969 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43F9CDD1179A331C00DDD969 /* Metric + */ = {
+			isa = PBXGroup;
+			children = (
+				43F9CDDA179A331C00DDD969 /* BMAppDelegate.h */,
+				43F9CDDB179A331C00DDD969 /* BMAppDelegate.m */,
+				43F9CDEE179A353F00DDD969 /* BMTemperatureController.h */,
+				43F9CDEF179A353F00DDD969 /* BMTemperatureController.m */,
+				43F9CDF0179A353F00DDD969 /* BMTemperatureController.xib */,
+				43F9CDF3179A356A00DDD969 /* BMWeightController.h */,
+				43F9CDF4179A356A00DDD969 /* BMWeightController.m */,
+				43F9CDF5179A356A00DDD969 /* BMWeightController.xib */,
+				43F9CDF8179A358400DDD969 /* BMLengthController.h */,
+				43F9CDF9179A358400DDD969 /* BMLengthController.m */,
+				43F9CDFA179A358400DDD969 /* BMLengthController.xib */,
+				43F9CDFD179A359500DDD969 /* BMAreaController.h */,
+				43F9CDFE179A359500DDD969 /* BMAreaController.m */,
+				43F9CDFF179A359500DDD969 /* BMAreaController.xib */,
+				43F9CE02179A35A700DDD969 /* BMVolumeController.h */,
+				43F9CE03179A35A700DDD969 /* BMVolumeController.m */,
+				43F9CE04179A35A700DDD969 /* BMVolumeController.xib */,
+				43F9CDD2179A331C00DDD969 /* Supporting Files */,
+			);
+			path = "Metric +";
+			sourceTree = "<group>";
+		};
+		43F9CDD2179A331C00DDD969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43002EFC17E1ED7200624831 /* 89-dumbells.png */,
+				43002EFD17E1ED7200624831 /* 89-dumbells@2x.png */,
+				43002F0017E1ED7C00624831 /* 91-beaker-2.png */,
+				43002F0117E1ED7C00624831 /* 91-beaker-2@2x.png */,
+				43002EF817E1EC6600624831 /* 93-thermometer.png */,
+				43002EFA17E1EC6D00624831 /* 93-thermometer@2x.png */,
+				43002F0417E1ED8700624831 /* 186-ruler.png */,
+				43002F0517E1ED8700624831 /* 186-ruler@2x.png */,
+				43002F0817E1ED8F00624831 /* 257-box3.png */,
+				43002F0917E1ED8F00624831 /* 257-box3@2x.png */,
+				4317ABE817B4112700117B2D /* darkButton.png */,
+				4317ABEA17B4112F00117B2D /* darkButton@2x.png */,
+				4319467817A34CA00080DF11 /* metric-icon.png */,
+				4319467A17A34CA40080DF11 /* metric-icon@2x.png */,
+				43002F0C17E1F20800624831 /* metric_icon_120.png */,
+				43F9CDD3179A331C00DDD969 /* Metric Plus-Info.plist */,
+				43F9CDD4179A331C00DDD969 /* InfoPlist.strings */,
+				43F9CDD7179A331C00DDD969 /* main.m */,
+				43F9CDD9179A331C00DDD969 /* Metric Plus-Prefix.pch */,
+				43F9CDDD179A331C00DDD969 /* Default.png */,
+				43F9CDDF179A331C00DDD969 /* Default@2x.png */,
+				43F9CDE1179A331C00DDD969 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F9CDC7179A331C00DDD969 /* Metric Plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F9CDEB179A331C00DDD969 /* Build configuration list for PBXNativeTarget "Metric Plus" */;
+			buildPhases = (
+				43F9CDC4179A331C00DDD969 /* Sources */,
+				43F9CDC5179A331C00DDD969 /* Frameworks */,
+				43F9CDC6179A331C00DDD969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metric Plus";
+			productName = "Metric +";
+			productReference = 43F9CDC8179A331C00DDD969 /* Metric Plus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F9CDC0179A331C00DDD969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Beau Matherne";
+			};
+			buildConfigurationList = 43F9CDC3179A331C00DDD969 /* Build configuration list for PBXProject "Metric Plus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43F9CDBF179A331C00DDD969;
+			productRefGroup = 43F9CDC9179A331C00DDD969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F9CDC7179A331C00DDD969 /* Metric Plus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F9CDC6179A331C00DDD969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43002EF917E1EC6600624831 /* 93-thermometer.png in Resources */,
+				43F9CDD6179A331C00DDD969 /* InfoPlist.strings in Resources */,
+				43F9CDDE179A331C00DDD969 /* Default.png in Resources */,
+				43002F0A17E1ED8F00624831 /* 257-box3.png in Resources */,
+				43002F0D17E1F20800624831 /* metric_icon_120.png in Resources */,
+				43002EFB17E1EC6D00624831 /* 93-thermometer@2x.png in Resources */,
+				43002EFE17E1ED7200624831 /* 89-dumbells.png in Resources */,
+				43F9CDE0179A331C00DDD969 /* Default@2x.png in Resources */,
+				43F9CDE2179A331C00DDD969 /* Default-568h@2x.png in Resources */,
+				43F9CDF2179A353F00DDD969 /* BMTemperatureController.xib in Resources */,
+				43F9CDF7179A356A00DDD969 /* BMWeightController.xib in Resources */,
+				43002F0717E1ED8700624831 /* 186-ruler@2x.png in Resources */,
+				43002EFF17E1ED7200624831 /* 89-dumbells@2x.png in Resources */,
+				43F9CDFC179A358400DDD969 /* BMLengthController.xib in Resources */,
+				43F9CE01179A359500DDD969 /* BMAreaController.xib in Resources */,
+				43F9CE06179A35A700DDD969 /* BMVolumeController.xib in Resources */,
+				43002F0317E1ED7C00624831 /* 91-beaker-2@2x.png in Resources */,
+				43002F0217E1ED7C00624831 /* 91-beaker-2.png in Resources */,
+				4319467917A34CA00080DF11 /* metric-icon.png in Resources */,
+				4319467B17A34CA40080DF11 /* metric-icon@2x.png in Resources */,
+				4317ABE917B4112700117B2D /* darkButton.png in Resources */,
+				43002F0617E1ED8700624831 /* 186-ruler.png in Resources */,
+				4317ABEB17B4112F00117B2D /* darkButton@2x.png in Resources */,
+				43002F0B17E1ED8F00624831 /* 257-box3@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F9CDC4179A331C00DDD969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F9CDD8179A331C00DDD969 /* main.m in Sources */,
+				43F9CDDC179A331C00DDD969 /* BMAppDelegate.m in Sources */,
+				43F9CDF1179A353F00DDD969 /* BMTemperatureController.m in Sources */,
+				43F9CDF6179A356A00DDD969 /* BMWeightController.m in Sources */,
+				43F9CDFB179A358400DDD969 /* BMLengthController.m in Sources */,
+				43F9CE00179A359500DDD969 /* BMAreaController.m in Sources */,
+				43F9CE05179A35A700DDD969 /* BMVolumeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43F9CDD4179A331C00DDD969 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F9CDD5179A331C00DDD969 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F9CDE9179A331C00DDD969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6B4AFFB1-9099-4783-B10F-2393F42512DB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43F9CDEA179A331C00DDD969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beau Matherne (JRYDK6Y267)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beau Matherne (JRYDK6Y267)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6B4AFFB1-9099-4783-B10F-2393F42512DB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F9CDEC179A331C00DDD969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metric +/Metric Plus-Prefix.pch";
+				INFOPLIST_FILE = "Metric +/Metric Plus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Metric Plus";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43F9CDED179A331C00DDD969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beau Matherne (JRYDK6Y267)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beau Matherne (JRYDK6Y267)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metric +/Metric Plus-Prefix.pch";
+				INFOPLIST_FILE = "Metric +/Metric Plus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Metric Plus";
+				PROVISIONING_PROFILE = "6B4AFFB1-9099-4783-B10F-2393F42512DB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6B4AFFB1-9099-4783-B10F-2393F42512DB";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F9CDC3179A331C00DDD969 /* Build configuration list for PBXProject "Metric Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F9CDE9179A331C00DDD969 /* Debug */,
+				43F9CDEA179A331C00DDD969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F9CDEB179A331C00DDD969 /* Build configuration list for PBXNativeTarget "Metric Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F9CDEC179A331C00DDD969 /* Debug */,
+				43F9CDED179A331C00DDD969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43F9CDC0179A331C00DDD969 /* Project object */;
+}
